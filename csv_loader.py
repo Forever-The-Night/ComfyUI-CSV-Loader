@@ -38,7 +38,7 @@ class CharactersLoader:
         
     @classmethod
     def INPUT_TYPES(cls):
-        cls.characters_csv = cls.load_characters_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-CSV-Loader\\CSV\\VirtuaRealCharacters.csv"))
+        cls.characters_csv = cls.load_characters_csv(os.path.join(folder_paths.base_path, "custom_nodes\\ComfyUI-VRC-Selector\\CSV\\VirtuaRealCharacters.csv"))
         return {
             "required": {
                 "characters": (list(cls.characters_csv.keys()),),
