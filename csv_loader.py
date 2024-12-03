@@ -49,7 +49,7 @@ class CharactersLoader:
     RETURN_TYPES = ("STRING","STRING")
     RETURN_NAMES = ("角色特征", "服装特征")
     FUNCTION = "execute"
-    CATEGORY = "CSV Loaders"   
+    CATEGORY = "VR角色选择器"   
 
     def execute(self, characters):
             return (self.characters_csv[characters][0], self.characters_csv[characters][1])
@@ -58,7 +58,7 @@ class CharactersLoader:
 #NODE NAMING
 
 NODE_CLASS_MAPPINGS = {
-    "Load VirtuaRealCharacters Selector": CharactersLoader,
+    "加载VirtuaReal角色预设Tag": CharactersLoader,
 
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
