@@ -58,7 +58,7 @@ class CharactersLoader:
 #NODE NAMING
 
 NODE_CLASS_MAPPINGS = {
-    "Load VirtuaRealCharacters Selector": CharactersCSVLoader,
+    "Load VirtuaRealCharacters Selector": CharactersLoader,
 
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
